@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anand Vaiyda - Portfolio</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container nav-wrapper">
+            <a href="#" class="logo">AV.</a>
+            
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Background Animation -->
+    <div class="background-animation">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container hero-content">
+            <div class="profile-wrapper">
+                <div class="glow-ring"></div>
+                <div class="img-container">
+                    <img src="images/anand.logo.jpg" alt="Anand Vaiyda">
+                </div>
+            </div>
+            
+            <h1 class="fade-in">Hi, I'm <span class="gradient-text">Anand Vaiyda</span></h1>
+            <p class="subtitle fade-in">
+                AI/ML 3rd Year Student | Data Analyst | Full-Stack Developer |<br>
+                Building intelligent systems & crafting digital experiences.
+                currently pursuing btech from BGIEM (idk what i'm doing here😴)
+            </p>
+            
+            <div class="hero-buttons fade-in">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>About Me</h2>
+                <p>This is Anand, I'm a tech guy but I'm also a jack of all trades😮‍💨.
+From AI, ML, and full-stack dev to business, freelancing, video editing and fitness—I'm everywhere. I build, create, and hustle my way through multiple domains because learning and doing more is my core vibe🚀</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="card fade-in">
+                    <div class="icon-box blue"><i data-lucide="brain"></i></div>
+                    <h3>Machine Learning</h3>
+                    <p>Building intelligent models with Python, NLP, and deep learning techniques.</p>
+                </div>
+                <div class="card fade-in">
+                    <div class="icon-box purple"><i data-lucide="line-chart"></i></div>
+                    <h3>Data Analytics</h3>
+                    <p>Extracting insights from data through EDA, visualization, and advanced analytics.</p>
+                </div>
+                <div class="card fade-in">
+                    <div class="icon-box green"><i data-lucide="code-2"></i></div>
+                    <h3>Full-Stack Dev</h3>
+                    <p>Creating scalable web applications with MERN stack and modern frameworks.</p>
+                </div>
+            </div>
+
+            <!-- Experience Roadmap -->
+            <div class="section-header fade-in" style="margin-top: 6rem;">
+                <h2>My Experience</h2>
+                <p>A timeline of my journey, hackathons, and internships.</p>
+            </div>
+
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2 Aug 2024 - 2 Jan 2025</span>
+                        <div class="card">
+                            <h3>Web Developer Intern</h3>
+                            <h4 style="color: var(--text-muted); margin-bottom: 0.5rem; font-size: 0.9rem;">Starial</h4>
+                            <p style="font-size: 0.9rem;">Worked on full-stack web development projects.</p>
+                            <img src="images/starial.jpg" alt="Web Developer Intern" class="timeline-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">16 Nov 2024</span>
+                        <div class="card">
+                            <h3>Top 10 Finalist in International Level</h3>
+                            <h4 style="color: var(--text-muted); margin-bottom: 0.5rem; font-size: 0.9rem;">Internationa Innovation Challenge 2024 </h4>
+                            <p style="font-size: 0.9rem;">Secured top 10 position among international & hundreds of teams.</p>
+                            <img src="images/iic.jpg" alt="Top 10 Finalist" class="timeline-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">4 April 2025</span>
+                        <div class="card">
+                            <h3>5th Rank & Best UI</h3>
+                            <h4 style="color: var(--text-muted); margin-bottom: 0.5rem; font-size: 0.9rem;">Ideathon PCU Pune</h4>
+                            <p style="font-size: 0.9rem;">Recognized for best user interface design and innovative idea.</p>
+                            <img src="images/pune.jpg" alt="5th Rank & Best UI" class="timeline-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">18 Dec 2024</span>
+                        <div class="card">
+                            <h3>Top 5 Finalist</h3>
+                            <h4 style="color: var(--text-muted); margin-bottom: 0.5rem; font-size: 0.9rem;">I ❤️ Hackathon indore</h4>
+                            <p style="font-size: 0.9rem;">Showcased innovative solutions in a competitive environment.</p>
+                            <img src="images/indore2.jpg" alt="Top 10 Finalist" class="timeline-img">
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <!-- Item 5 -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <div class="card">
+                            <h3>Enhacing Skills & Freelancing</h3>
+                            <h4 style="color: var(--text-muted); margin-bottom: 0.5rem; font-size: 0.9rem;">Focusing on Businees, enhacing skills etc </h4>
+                            <p style="font-size: 0.9rem;">This year i'm focusing on my core skills in Ai/ml, Gen ai, Data Analytics and created project and worked as a freelancer and started content creation too.</p>
+                            <img src="images/2025.jpg" alt="Top 10 Finalist" class="timeline-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Featured Projects</h2>
+                <p>A showcase of my work in AI/ML, data science, and full-stack development.</p>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Skills & Technologies</h2>
+                <p>My technical expertise across various domains and technologies.</p>
+            </div>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Get In Touch</h2>
+                <p>I'm always open to discussing new projects, internship opportunities, or collaborations.</p>
+            </div>
+            
+            <div class="contact-card fade-in">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="your.email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-full">Send Message</button>
+                </form>
+                
+                <div class="social-links">
+                    <a href="mailto:anandvaidya46@gmail.com"><i data-lucide="mail"></i></a>
+                    <a href="https://www.linkedin.com/in/anand-vaidya-4b98a230b/"><i data-lucide="linkedin"></i></a>
+                    <a href="https://github.com/anandvaidya21"><i data-lucide="github"></i></a>
+                    <a href="https://x.com/Anand_Vaidya_"><i data-lucide="twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Widget -->
+    <div class="chat-widget">
+        <div class="chat-window" id="chat-window">
+            <div class="chat-header">
+                <div class="chat-title">
+                    <span class="bot-status-dot"></span>
+                    <i data-lucide="bot" class="bot-icon"></i>
+                    <h3>Anand's AI Assistant</h3>
+                </div>
+                <button class="close-chat" id="close-chat"><i data-lucide="x"></i></button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot">
+                    Hi there! 👋 I'm Anand's AI assistant. Ask me about his skills, projects, or how to get in touch!
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Ask me something..." autocomplete="off">
+                <button id="send-message"><i data-lucide="send"></i></button>
+            </div>
+        </div>
+        <button class="chat-toggle" id="chat-toggle">
+            <i data-lucide="message-circle"></i>
+        </button>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Thank you for visiting❤️</p>
+            <p class="small">Designed & Built by Anand😎.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
